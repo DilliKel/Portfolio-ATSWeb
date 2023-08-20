@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
 // ---------------------- Botão de modo noturno: ----------------------
 
 // Seleciona o botão de alternância de modo (no caso, o botão de tema)
@@ -51,9 +50,6 @@ if (savedTheme === "dark") {
   // Caso contrário, adiciona a classe "light-mode" para aplicar o modo claro
   body.classList.add("light-mode");
 }
-
-
-
 // ----------------- PARTE DA TRADUÇÃO DA PÁGINA -----------------
 const flagPT = document.getElementById("flag-pt");
 const flagEN = document.getElementById("flag-en");
